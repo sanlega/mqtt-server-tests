@@ -17,7 +17,7 @@ def on_connect(client, userdata, flags, rc):
     print("Connected with Code: " + str(rc))
     client.subscribe("test/#")  # Replace with your topic name if it's followed by # it will listen for all subtopics after it
 
-### An example of topic might be "main/temps/#/celsius" that will give us the celsius temps of all the subtopics after "/temps"
+### An example of topic might be "main/temps/#/celsius" that will give us the celsius temps of all the subtopics after "main/temps/..."
 
 def on_message(client, userdata, msg):
     print("Message received: " + msg.payload.decode("utf-8"))
