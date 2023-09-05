@@ -53,8 +53,3 @@ Once the MQTT broker is running, you can publish messages to the topic `test/#` 
 ## Contributing
 
 This is a work-in-progress, and contributions are welcome. Please open an issue or submit a pull request.
-## License
-
-This project is open source, under the [MIT License](https://chat.openai.com/c/LICENSE) .---
-
-You can update the repository URL and other project-specific information. Once done, you can push this README.md file to your GitHub repository.
