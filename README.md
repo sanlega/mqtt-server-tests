@@ -42,6 +42,11 @@ To start the MQTT Data Logger:
 ```bash
 python mqtt_data_logger.py
 ```
+Test. Use a variation of this command with your host to make sure it works:
+
+```bash
+mosquitto_pub -h 127.0.0.1 -t topic -m "Hello"
+````
 
 
 Once the MQTT broker is running, you can publish messages to the topic `test/#` (or any topic you've configured). The messages will be logged into the MySQL database.
